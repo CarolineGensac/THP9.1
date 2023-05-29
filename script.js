@@ -53,7 +53,7 @@ editgreen.addEventListener('click', function () {
 // const link = document.querySelector("head > link");
 // let linkEnabled = true;
 
-// page.addEventListener('click', function() {
+// page.addEventListener('dblclick', function() {
 //   if (linkEnabled) {
 //     linkEnabled = false;
 //     link.disabled = true;
@@ -62,11 +62,14 @@ editgreen.addEventListener('click', function () {
 //     link.disabled = false;
 //   }
 // });
+
 //  --------------------------------------
 // VERSION COURTE
-//  page.addEventListener('click', function() {
-//   linkEnabled ? (link.disabled = true) : (link.disabled = false);
-//   linkEnabled = !linkEnabled;
+// const page = document.querySelector("html");
+// const link = document.querySelector("head > link");
+
+//  page.addEventListener('dblclick', function() {
+//   link.disabled = !link.disabled; 
 // });
 // ---------------------------------------
 
